@@ -1,11 +1,11 @@
-#include "parser.h"
+#include "file_manager.h"
 #include <chrono>
 
 
 int main() {
     auto start = std::chrono::high_resolution_clock::now();
-    Parser parser;
-    parser.runProcess();
+    FileManager filemanager;
+    filemanager.runProcess();
     auto end = std::chrono::high_resolution_clock::now();
     std::chrono::duration<double, std::milli> duration = end - start;
 
