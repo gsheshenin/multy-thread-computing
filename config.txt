@@ -1,3 +1,0 @@
-input_directory: "E:/CPP/multi-threaded_computing/input_files"
-output_file: "out.dat"
-logging: "true"
